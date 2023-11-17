@@ -1,1 +1,84 @@
-/* Default styling for all pages */
+* {
+    direction: ltr;
+    background-color: #999999;
+}
+
+header > section, .app-header, .app-footer, .app-logo, .app-menu, .app-menu > a,
+    .logo-small-footer, footer > aside > nav, footer > aside, footer > aside > nav > a,
+    footer > aside > nav > a > img, .centered-section {
+    background-color: #eeeeee;
+}
+
+.app-menu, .app-footer, .app-header, header > section, footer > main, .app-menu > a,
+    footer > section, footer > aside, footer > aside > nav, .centered-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-header {
+    height: 12vh;
+}
+
+.app-footer {
+    height: 15vh;
+    bottom: 0;
+    position: absolute;
+}
+
+.app-footer, .app-header {
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.app-logo {
+    height: 100%;
+    width: 8rem;
+    vertical-align: middle;
+}
+
+footer > section > .app-logo {
+    width: 12rem;
+}
+
+.app-menu {
+    width: 100%;
+}
+
+.app-menu > a {
+    margin: 0 5vw 0 0;
+    font-size: 1.1rem;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+}
+
+.app-menu > a:last-of-type {
+    margin: 0 0 0 0;
+}
+
+aside > nav {
+    justify-content: space-between;
+}
+
+.logo-small-footer {
+    width: 4rem;
+    height: 3rem;
+}
+
+footer > aside > nav > a {
+    margin: 0 2vw 0 0;
+}
+
+footer > aside > nav > a:first-of-type img {
+    width: 9rem;
+}
+
+.rounded-element {
+    border-radius: 8px;
+}
+
+.centered-section {
+    width: 70vw;
+}
+
