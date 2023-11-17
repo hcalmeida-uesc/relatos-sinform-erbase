@@ -1,1 +1,11 @@
 /* Default styling for all pages */
+:root {
+    --content-bg-color: #fdfdfd;
+    --body-bg-color: #f5f7fa;
+    --btn-bg-color: #0d6efd;
+    --btn-hover-color: #0b5ed7;
+    --btn-p-color: #fdfdfd;
+    --hx-base-color: #4d4d4d;
+    --p-base-color: #717171;
+    --p-desc-color: #b5b5c3;
+}
