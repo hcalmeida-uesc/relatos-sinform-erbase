@@ -1,1 +1,6 @@
-/* Default styling for all pages */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+
+    --fontePrincipal:  'Inter', sans-serif;
+}
