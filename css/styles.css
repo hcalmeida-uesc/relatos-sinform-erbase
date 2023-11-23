@@ -181,3 +181,22 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/*slider*/
+
+#carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item {
+    height: 75vh;
+    overflow: hidden;
+}
+
+#carouselExampleCaptions .carousel-inner img, #carouselExampleCaptions .carousel-item img {
+    position: relative;
+    top: -250px;
+}
+
+.titulo-galeria{
+    padding: 75px 0px 50px 0px;
+    text-align: center;
+    color: #004080;
+    font-size: 2rem;
+}
