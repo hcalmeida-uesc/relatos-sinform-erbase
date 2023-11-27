@@ -6,9 +6,10 @@ body {
 }
 
 #menu {
-    width: 20%;
     background-color: #f2f2f2;
     padding: 20px;
+    width: 30%;
+    min-width: 250px;
 }
 
 #content {
@@ -26,8 +27,9 @@ body {
     cursor: pointer;
 }
 
-#course-info {
+.minicurso {
     display: none;
+    padding: 50px 100px 50px 100px;
 }
 
 #course-info img {

@@ -28,16 +28,144 @@
     <div id="menu">
         <h2>Minicursos</h2>
         <ul id="course-list">
-            <li onclick="showCourseInfo('minicurso1')">Minicurso 1</li>
-            <li onclick="showCourseInfo('minicurso2')">Minicurso 2</li>
+            <li onclick="showCourse('minicurso-github')">GitHub</li>
+            <li onclick="showCourse('minicurso-robocode')">Robocode</li>
+            <li onclick="showCourse('minicurso-realidade-virtual')">Realidade Virtual</li>
+            <!--<li onclick="showCourse('palestras-robotica-movel-e-palestra-passado-presente-e-futuro-dos-modelos-de-linguagem-como-o-gpt')">Palestras Robótica Móvel / Palestra Passado, presente e futuro dos modelos de Línguagem como o GPT</li>-->
+
+            <li onclick="showCourse('minicurso-descobrindo-o-ciclo-de-ciencia-de-dados-em-python')">Descobrindo o
+                ciclo de Ciência de Dados em Python</li>
+            <li onclick="showCourse('minicurso-simplificando-design-para-web-com-figma')">Simplificando Design para
+                Web com Figma</li>
+            <!--<li onclick="showCourse('palestra-redes-5g-aplicacoes-e-evolucao-e-palestra-inteligencia-artificial-explicavel')">Palestra Redes 5G - Aplicações e evolução / Inteligência Artificial Explicável</li>-->
+
+            <li onclick="showCourse('minicurso-blockchain')">Blockchain</li>
+            <li onclick="showCourse('minicurso-acessibilidade-web')">Acessibilidade Web</li>
+            <li onclick="showCourse('minicurso-torneio-de-robotica')">Torneio de robótica</li>
+
             <!-- Adicione mais itens conforme necessário -->
         </ul>
     </div>
 
-    <div id="content">
+    <div id="minicurso-github" class="minicurso">
         <div id="course-info">
-            <h1 id="course-title"></h1>
-            <p id="course-description"></p>
+            <h1 id="course-title">GitHub</h1>
+            <p id="course-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae nibh non
+                purus porttitor laoreet quis vitae tortor. Aliquam massa libero, scelerisque vel lorem non, sagittis
+                commodo metus. Mauris a faucibus ipsum, ac finibus libero. Cras vulputate ornare ipsum, at blandit massa
+                aliquam in. Proin mattis enim at nunc tincidunt sollicitudin. Maecenas nibh elit, condimentum eget
+                semper sed, fermentum at tellus. Donec sodales orci sed ornare fringilla. Vivamus a mi ultricies,
+                lacinia magna at, mollis ante. Ut ullamcorper, quam id porta maximus, ante risus scelerisque enim,
+                dictum volutpat ipsum nunc et ante. Proin quis felis varius, egestas metus eu, cursus dolor. Aenean
+                lacinia elementum vestibulum. Curabitur venenatis malesuada tortor eu elementum.</p>
+            <img id="course-image" src="" alt="Imagem do Minicurso">
+            <!-- Adicione mais informações conforme necessário -->
+        </div>
+    </div>
+    <div id="minicurso-robocode" class="minicurso">
+        <div id="course-info">
+            <h1 id="course-title">Robocode</h1>
+            <p id="course-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae nibh non
+                purus porttitor laoreet quis vitae tortor. Aliquam massa libero, scelerisque vel lorem non, sagittis
+                commodo metus. Mauris a faucibus ipsum, ac finibus libero. Cras vulputate ornare ipsum, at blandit massa
+                aliquam in. Proin mattis enim at nunc tincidunt sollicitudin. Maecenas nibh elit, condimentum eget
+                semper sed, fermentum at tellus. Donec sodales orci sed ornare fringilla. Vivamus a mi ultricies,
+                lacinia magna at, mollis ante. Ut ullamcorper, quam id porta maximus, ante risus scelerisque enim,
+                dictum volutpat ipsum nunc et ante. Proin quis felis varius, egestas metus eu, cursus dolor. Aenean
+                lacinia elementum vestibulum. Curabitur venenatis malesuada tortor eu elementum.</p>
+            <img id="course-image" src="" alt="Imagem do Minicurso">
+            <!-- Adicione mais informações conforme necessário -->
+        </div>
+    </div>
+    <div id="minicurso-realidade-virtual" class="minicurso">
+        <div id="course-info">
+            <h1 id="course-title">Realidade Virtual</h1>
+            <p id="course-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae nibh non
+                purus porttitor laoreet quis vitae tortor. Aliquam massa libero, scelerisque vel lorem non, sagittis
+                commodo metus. Mauris a faucibus ipsum, ac finibus libero. Cras vulputate ornare ipsum, at blandit massa
+                aliquam in. Proin mattis enim at nunc tincidunt sollicitudin. Maecenas nibh elit, condimentum eget
+                semper sed, fermentum at tellus. Donec sodales orci sed ornare fringilla. Vivamus a mi ultricies,
+                lacinia magna at, mollis ante. Ut ullamcorper, quam id porta maximus, ante risus scelerisque enim,
+                dictum volutpat ipsum nunc et ante. Proin quis felis varius, egestas metus eu, cursus dolor. Aenean
+                lacinia elementum vestibulum. Curabitur venenatis malesuada tortor eu elementum.</p>
+            <img id="course-image" src="" alt="Imagem do Minicurso">
+            <!-- Adicione mais informações conforme necessário -->
+        </div>
+    </div>
+
+    <div id="minicurso-descobrindo-o-ciclo-de-ciencia-de-dados-em-python" class="minicurso">
+        <div id="course-info">
+            <h1 id="course-title">Descobrindo o Ciclo de Ciência de Dados em Python</h1>
+            <p id="course-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae nibh non
+                purus porttitor laoreet quis vitae tortor. Aliquam massa libero, scelerisque vel lorem non, sagittis
+                commodo metus. Mauris a faucibus ipsum, ac finibus libero. Cras vulputate ornare ipsum, at blandit massa
+                aliquam in. Proin mattis enim at nunc tincidunt sollicitudin. Maecenas nibh elit, condimentum eget
+                semper sed, fermentum at tellus. Donec sodales orci sed ornare fringilla. Vivamus a mi ultricies,
+                lacinia magna at, mollis ante. Ut ullamcorper, quam id porta maximus, ante risus scelerisque enim,
+                dictum volutpat ipsum nunc et ante. Proin quis felis varius, egestas metus eu, cursus dolor. Aenean
+                lacinia elementum vestibulum. Curabitur venenatis malesuada tortor eu elementum.</p>
+            <img id="course-image" src="" alt="Imagem do Minicurso">
+            <!-- Adicione mais informações conforme necessário -->
+        </div>
+    </div>
+    <div id="minicurso-simplificando-design-para-web-com-figma" class="minicurso">
+        <div id="course-info">
+            <h1 id="course-title">Simplificando Design para Web com Figma</h1>
+            <p id="course-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae nibh non
+                purus porttitor laoreet quis vitae tortor. Aliquam massa libero, scelerisque vel lorem non, sagittis
+                commodo metus. Mauris a faucibus ipsum, ac finibus libero. Cras vulputate ornare ipsum, at blandit massa
+                aliquam in. Proin mattis enim at nunc tincidunt sollicitudin. Maecenas nibh elit, condimentum eget
+                semper sed, fermentum at tellus. Donec sodales orci sed ornare fringilla. Vivamus a mi ultricies,
+                lacinia magna at, mollis ante. Ut ullamcorper, quam id porta maximus, ante risus scelerisque enim,
+                dictum volutpat ipsum nunc et ante. Proin quis felis varius, egestas metus eu, cursus dolor. Aenean
+                lacinia elementum vestibulum. Curabitur venenatis malesuada tortor eu elementum.</p>
+            <img id="course-image" src="" alt="Imagem do Minicurso">
+            <!-- Adicione mais informações conforme necessário -->
+        </div>
+    </div>
+
+    <div id="minicurso-blockchain" class="minicurso">
+        <div id="course-info">
+            <h1 id="course-title">Blockchain</h1>
+            <p id="course-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae nibh non
+                purus porttitor laoreet quis vitae tortor. Aliquam massa libero, scelerisque vel lorem non, sagittis
+                commodo metus. Mauris a faucibus ipsum, ac finibus libero. Cras vulputate ornare ipsum, at blandit massa
+                aliquam in. Proin mattis enim at nunc tincidunt sollicitudin. Maecenas nibh elit, condimentum eget
+                semper sed, fermentum at tellus. Donec sodales orci sed ornare fringilla. Vivamus a mi ultricies,
+                lacinia magna at, mollis ante. Ut ullamcorper, quam id porta maximus, ante risus scelerisque enim,
+                dictum volutpat ipsum nunc et ante. Proin quis felis varius, egestas metus eu, cursus dolor. Aenean
+                lacinia elementum vestibulum. Curabitur venenatis malesuada tortor eu elementum.</p>
+            <img id="course-image" src="" alt="Imagem do Minicurso">
+            <!-- Adicione mais informações conforme necessário -->
+        </div>
+    </div>
+    <div id="minicurso-acessibilidade-web" class="minicurso">
+        <div id="course-info">
+            <h1 id="course-title">Acessibilidade Web</h1>
+            <p id="course-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae nibh non
+                purus porttitor laoreet quis vitae tortor. Aliquam massa libero, scelerisque vel lorem non, sagittis
+                commodo metus. Mauris a faucibus ipsum, ac finibus libero. Cras vulputate ornare ipsum, at blandit massa
+                aliquam in. Proin mattis enim at nunc tincidunt sollicitudin. Maecenas nibh elit, condimentum eget
+                semper sed, fermentum at tellus. Donec sodales orci sed ornare fringilla. Vivamus a mi ultricies,
+                lacinia magna at, mollis ante. Ut ullamcorper, quam id porta maximus, ante risus scelerisque enim,
+                dictum volutpat ipsum nunc et ante. Proin quis felis varius, egestas metus eu, cursus dolor. Aenean
+                lacinia elementum vestibulum. Curabitur venenatis malesuada tortor eu elementum.</p>
+            <img id="course-image" src="" alt="Imagem do Minicurso">
+            <!-- Adicione mais informações conforme necessário -->
+        </div>
+    </div>
+
+    <div id="minicurso-torneio-de-robotica" class="minicurso">
+        <div id="course-info">
+            <h1 id="course-title">Torneio de Robótica</h1>
+            <p id="course-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae nibh non
+                purus porttitor laoreet quis vitae tortor. Aliquam massa libero, scelerisque vel lorem non, sagittis
+                commodo metus. Mauris a faucibus ipsum, ac finibus libero. Cras vulputate ornare ipsum, at blandit massa
+                aliquam in. Proin mattis enim at nunc tincidunt sollicitudin. Maecenas nibh elit, condimentum eget
+                semper sed, fermentum at tellus. Donec sodales orci sed ornare fringilla. Vivamus a mi ultricies,
+                lacinia magna at, mollis ante. Ut ullamcorper, quam id porta maximus, ante risus scelerisque enim,
+                dictum volutpat ipsum nunc et ante. Proin quis felis varius, egestas metus eu, cursus dolor. Aenean
+                lacinia elementum vestibulum. Curabitur venenatis malesuada tortor eu elementum.</p>
             <img id="course-image" src="" alt="Imagem do Minicurso">
             <!-- Adicione mais informações conforme necessário -->
         </div>

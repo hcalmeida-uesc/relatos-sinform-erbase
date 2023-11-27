@@ -1,26 +1,16 @@
-function showCourseInfo(courseId) {
-    // Simule informações dinâmicas do minicurso (substitua com seus próprios dados)
-    const courseData = {
-        minicurso1: {
-            title: "Introdução ao HTML",
-            description: "Aprenda os conceitos básicos do HTML.",
-            image: "caminho/para/imagem1.jpg",
-            // Adicione mais informações conforme necessário
-        },
-        minicurso2: {
-            title: "CSS Avançado",
-            description: "Explore recursos avançados do CSS para estilizar suas páginas.",
-            image: "caminho/para/imagem2.jpg",
-            // Adicione mais informações conforme necessário
-        }
-        // Adicione mais minicursos conforme necessário
-    };
+showCourse(null);
+function showCourse(courseId) {
+    const minicursos = document.getElementsByClassName('minicurso');
 
-    // Atualize a seção de informações do minicurso com os dados correspondentes
-    document.getElementById('course-title').textContent = courseData[courseId].title;
-    document.getElementById('course-description').textContent = courseData[courseId].description;
-    document.getElementById('course-image').src = courseData[courseId].image;
+    // Usando um loop tradicional para iterar sobre a coleção
+    for (const el of minicursos) {
+        el.style.display = "none";
+    }
 
-    // Exiba a seção de informações do minicurso
-    document.getElementById('course-info').style.display = 'block';
+    if (courseId == null) {
+        document.getElementById("minicurso-github").style.display = "block";
+        return;
+    }
+    // Exibindo o elemento com o ID fornecido
+    document.getElementById(courseId).style.display = "block";
 }
