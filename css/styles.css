@@ -81,13 +81,40 @@ div {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo5.jpg");
 }
 
+.event {
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+}
+
+.section .event img {
+    position: absolute;
+} 
+
+.event img {
+    width: 40%;
+    height: auto;
+}
+
+.event .text-content {
+    width: 50%;
+}
 
 .parallax-container {
     background-attachment: fixed;
-    height: 100vh;
     overflow: hidden;
     position: relative;
     background-size: cover;
+}
+
+.parallax-container-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo4.jpg");
+    height: 70vh;
+}
+
+.parallax-container-event {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo2.jpeg");
+    height: 70vh;
 }
 
 .parallax {
@@ -113,25 +140,33 @@ div {
 
 .section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 80px 50px;
     background: #f4f4f4;
     text-align: center;
 }
 
-.section img {
-    width: 20%;
-    height: 20%;
+.text-content {
+    width: 50%;
+    padding: 0px 50px;
+    margin: 0px 20px;
 }
 
-.text-content {
+.event-images {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
-    padding: 0px 50px;
-    margin: 0px 20px;
+    justify-content: space-between;
+}
+
+.event-images img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.text-content ul {
+    text-align: left;
 }
 
 .text-content p {
