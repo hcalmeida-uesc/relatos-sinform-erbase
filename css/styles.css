@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-content a{
+    color: blue;
+    font-style: normal;
+}
+
+.logo{
+    padding: 20px;
+    margin: 0px;
+}
+
+/*h2 {
+    border: solid;
+}
+
+div { 
+    border: solid;
+}*/
+
+.section h2 {
+    color: #004080;
+    text-align: left;
+    align-self: auto;
+    margin: 0;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 60%;
+    height: 60%;
+}
+
+.menu-options a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu-options a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.parallax .centered-text h2{
+    color: #004080;
+}
+
+.parallax_1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo4.jpg");
+    height: 100vh;
+}
+
+.parallax_2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo2.jpeg");
+    height: 100vh;
+}
+
+.parallax_3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo.avif");
+    height: 100vh;
+}
+
+.parallax_4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo5.jpg");
+    height: 100vh;
+}
+
+.event {
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+}
+
+.section .event img {
+    position: absolute;
+} 
+
+.event img {
+    width: 40%;
+    height: auto;
+}
+
+.event .text-content {
+    width: 50%;
+}
+
+.parallax-container {
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+
+.parallax-container-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo4.jpg");
+    height: 100vh;
+}
+
+.parallax-container-event {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/photo2.jpeg");
+    height: 70vh;
+}
+
+.parallax {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate3d(0, 0, 0);
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 80px 50px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.text-content {
+    width: 50%;
+    padding: 0px 50px;
+    margin: 0px 20px;
+}
+
+.event-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event-images img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.text-content ul {
+    text-align: left;
+}
+
+.text-content p {
+    text-align: left;
+}
+
+.slick-carousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.slick-carousel img {
+    width: 200px; /* Defina o tamanho desejado para as imagens */
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Estilos para o título dos parceiros */
+.sponsors {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsors h2 {
+    margin-bottom: 30px;
+}
+
+.company {
+    margin: 0px 20px;
+}
+
+.fade-out {
+    opacity: 1;
+    transition: opacity 0.8s ease; /* Aplica a transição de fade */
+}
+
+.fade-out.hide {
+    opacity: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
