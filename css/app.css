@@ -9,3 +9,9 @@
     --p-base-color: #717171;
     --p-desc-color: #b5b5c3;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+
+    --fontePrincipal:  'Inter', sans-serif;
+}
