@@ -1,0 +1,13 @@
+:root {
+    --alturaLaguraImagem: 10rem;
+    --borda-arredondada: 5px;
+}
+.text-content > ul > li{
+    line-height: 1.4;
+}
+
+.event-images > img {
+    border-radius: var(--borda-arredondada);
+    height: var(--alturaLaguraImagem);
+    width: var(--alturaLaguraImagem);
+}
